@@ -27,3 +27,4 @@ user data is stored  and retrieved from the database **DATABASE TO USE TBD**
 email addresses are used for authentication **using passcode**
 support botton and patners are available at the bottom of the page
 # the page altimately directs user to the ** FEED PAGE **
+
