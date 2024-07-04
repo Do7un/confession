@@ -1,12 +1,25 @@
-.container{
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden; /* Disable scrolling */
+}
+
+.container {
     display: flex;
     flex-direction: column;
+    justify-content: center; /*keep centered */
+    align-items: center;
     margin: auto;
-    margin-top: 200px;
     width: 600px;
     background: #fff;
     padding-bottom: 30px;
+    position: absolute;  /* keep centered*/
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
+
 
 .header{
     display: flex;
@@ -76,7 +89,7 @@
 .submit-container {
     display: flex;
     gap: 30px;
-    margin: 60px auto;
+    margin: 0px auto;
 }
 
 .submit {
